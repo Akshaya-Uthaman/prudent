@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Feb 04 10:06:58 IST 2024","Sun Feb 04 10:07:00 IST 2024","2237","step_defs","test_search_api","","","","test_search_api",""
+"passed","Sun Feb 04 10:06:51 IST 2024","Sun Feb 04 10:06:57 IST 2024","5708","step_defs","test_countries","","","","test_countries_api",""
+"passed","Sun Feb 04 10:07:01 IST 2024","Sun Feb 04 10:07:03 IST 2024","1494","step_defs","test_search_api","","","","test_search_api_without_mandatory_key",""
+"passed","Sun Feb 04 10:07:00 IST 2024","Sun Feb 04 10:07:01 IST 2024","1132","step_defs","test_search_api","","","","test_search_api_invalid_auth",""
+"passed","Sun Feb 04 10:06:57 IST 2024","Sun Feb 04 10:06:58 IST 2024","1062","step_defs","test_countries","","","","test_search_api_invalid_auth",""

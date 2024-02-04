@@ -1,0 +1,14 @@
+
+basic:
+  url: https://streaming-availability.p.rapidapi.com/countries
+
+country_valid:
+  headers :  { X-RapidAPI-Key: 54ad3f630emsh380880c2a930b87p101218jsn3e6a4c003959,
+                X-RapidAPI-Host: streaming-availability.p.rapidapi.com }
+  expected_output: 200
+country_invalid_auth:
+  headers : {}
+  expected_output: 401
+
+
+

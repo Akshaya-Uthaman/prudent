@@ -1,0 +1,23 @@
+
+basic:
+  url: https://streaming-availability.p.rapidapi.com/search/filters
+
+search_valid:
+  headers :  { X-RapidAPI-Key: 54ad3f630emsh380880c2a930b87p101218jsn3e6a4c003959,
+                X-RapidAPI-Host: streaming-availability.p.rapidapi.com }
+  querystring: {"services": "netflix", "country": "us", "output_language": "en",
+                   "order_by": "original_title", "genres_relation": "and", "show_type": "all"}
+  expected_output: 200
+search_invalid_auth:
+  headers : {}
+  querystring: { "services": "netflix", "country": "us", "output_language": "en",
+                 "order_by": "original_title", "genres_relation": "and", "show_type": "all" }
+  expected_output: 401
+search_without_mandatory:
+  headers : { X-RapidAPI-Key: 54ad3f630emsh380880c2a930b87p101218jsn3e6a4c003959,
+                X-RapidAPI-Host: streaming-availability.p.rapidapi.com }
+  querystring: { "services": "netflix", "output_language": "en",
+                 "order_by": "original_title", "genres_relation": "and", "show_type": "all" }
+  expected_output: 400
+
+
